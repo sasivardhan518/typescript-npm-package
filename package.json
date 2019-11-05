@@ -1,0 +1,15 @@
+{
+  "name": "mm-report-data-service-ts",
+  "version": "1.0.1",
+  "description": "Report data service ->  common service for both UI and Export which deals with post data operations.",
+  "main": "./output/report-data-service.js",
+  "scripts": {
+    "start": "node remove-dir.js && tsc && npm link"
+  },
+  "author": "shashi vardhan",
+  "license": "ISC",
+  "types": "./output/report-data-service.d.ts",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
